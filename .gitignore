@@ -1,5 +1,12 @@
 # VPN Credentials (NEVER COMMIT)
 /auth.txt
+.claude
+AGENTS.md
+CLAUDE.md
+ANDROID_QUICK_REFERENCE.md
+ANDROID_TASKER_SETUP.md
+android-server-list.txt
+transfer-to-android.sh
 
 # Log files
 *.log
