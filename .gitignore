@@ -1,0 +1,27 @@
+# VPN Credentials (NEVER COMMIT)
+/auth.txt
+
+# Log files
+*.log
+
+# State and lock files
+vpn-current-server.txt
+vpn-rotation-paused.txt
+killswitch-enabled.txt
+*.lock
+*.pid
+
+# Temporary files
+.DS_Store
+*.tmp
+iptables-backup.rules
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System files
+Thumbs.db

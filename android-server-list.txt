@@ -1,0 +1,50 @@
+# VPN Server List for Tasker Configuration
+# Use this list when setting up Tasker variables
+# Copy the names exactly as they appear in OpenVPN for Android after import
+
+# For Tasker Variable (comma-separated, one line):
+al.protonvpn.udp,ao.protonvpn.udp,ar.protonvpn.udp,au.protonvpn.udp,az.protonvpn.udp,bd.protonvpn.udp,bg.protonvpn.udp,bn.protonvpn.udp,br.protonvpn.udp,ca.protonvpn.udp,ch.protonvpn.udp,ci.protonvpn.udp,cl.protonvpn.udp,cm.protonvpn.udp,co.protonvpn.udp,dz.protonvpn.udp,ec.protonvpn.udp,er.protonvpn.udp,es.protonvpn.udp,gh.protonvpn.udp,hk.protonvpn.udp,in.protonvpn.udp,jo.protonvpn.udp,kr.protonvpn.udp,kw.protonvpn.udp,ly.protonvpn.udp,mz.protonvpn.udp,rw.protonvpn.udp,se.protonvpn.udp,sv.protonvpn.udp,td.protonvpn.udp,uk.protonvpn.udp,us.protonvpn.udp
+
+# Total servers: 33
+
+# Individual server names (for reference):
+1. al.protonvpn.udp (Albania)
+2. ao.protonvpn.udp (Angola)
+3. ar.protonvpn.udp (Argentina)
+4. au.protonvpn.udp (Australia)
+5. az.protonvpn.udp (Azerbaijan)
+6. bd.protonvpn.udp (Bangladesh)
+7. bg.protonvpn.udp (Bulgaria)
+8. bn.protonvpn.udp (Brunei)
+9. br.protonvpn.udp (Brazil)
+10. ca.protonvpn.udp (Canada)
+11. ch.protonvpn.udp (Switzerland)
+12. ci.protonvpn.udp (Côte d'Ivoire)
+13. cl.protonvpn.udp (Chile)
+14. cm.protonvpn.udp (Cameroon)
+15. co.protonvpn.udp (Colombia)
+16. dz.protonvpn.udp (Algeria)
+17. ec.protonvpn.udp (Ecuador)
+18. er.protonvpn.udp (Eritrea)
+19. es.protonvpn.udp (Spain)
+20. gh.protonvpn.udp (Ghana)
+21. hk.protonvpn.udp (Hong Kong)
+22. in.protonvpn.udp (India)
+23. jo.protonvpn.udp (Jordan)
+24. kr.protonvpn.udp (South Korea)
+25. kw.protonvpn.udp (Kuwait)
+26. ly.protonvpn.udp (Libya)
+27. mz.protonvpn.udp (Mozambique)
+28. rw.protonvpn.udp (Rwanda)
+29. se.protonvpn.udp (Sweden)
+30. sv.protonvpn.udp (El Salvador)
+31. td.protonvpn.udp (Chad)
+32. uk.protonvpn.udp (United Kingdom)
+33. us.protonvpn.udp (United States)
+
+# Usage in Tasker:
+# 1. Create variable %SERVERS
+# 2. Set value to the comma-separated list above
+# 3. Use Variable Split with splitter: ","
+# 4. Access servers with %SERVERS1, %SERVERS2, etc.
+# 5. Update wrap-around value to: 33
