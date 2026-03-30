@@ -83,19 +83,9 @@ curl https://api.ipify.org
 
 ---
 
-## 🌍 Available Servers (11)
+## 🌍 Servers
 
-1. Angola (ao)
-2. Australia (au)
-3. Bangladesh (bd)
-4. Bulgaria (bg)
-5. Switzerland (ch)
-6. Spain (es)
-7. Mozambique (mz)
-8. Rwanda (rw)
-9. Sweden (se)
-10. UK (uk)
-11. USA (us)
+Place .ovnp files with your credentials in the *_servers* folder. The app will randomly rotate them.
 
 ---
 
