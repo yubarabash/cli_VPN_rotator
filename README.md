@@ -6,7 +6,7 @@ Automatic VPN rotation system with kill-switch protection for ProtonVPN.
 
 ```
 VPN_rotator/
-├── _servers/              # VPN server configurations (11 servers)
+├── _servers/             # VPN server configurations (add yours)
 ├── auth.txt              # ProtonVPN credentials
 ├── vpn-rotator.sh        # Main rotation script
 ├── vpn-control.sh        # Control interface
